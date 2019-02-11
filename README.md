@@ -4,9 +4,9 @@
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/fdcdvfsip9d9efg3?svg=true)](https://ci.appveyor.com/project/jonlabelle/trimmer)
 [![SonarQube Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=org.jonlabelle-github%3ATrimmer%3Amaster&metric=alert_status)](https://sonarcloud.io/dashboard/index/org.jonlabelle-github:Trimmer:master)
 [![Package Control Installs](https://img.shields.io/packagecontrol/dt/Trimmer.svg?label=installs)](https://packagecontrol.io/packages/Trimmer)
-[![Latest Release](https://img.shields.io/github/tag/jonlabelle/Trimmer.svg?label=version)](https://github.com/jonlabelle/Trimmer/releases)
+[![Latest Release](https://img.shields.io/github/tag/jonlabelle/Trimmer.svg?label=version)](https://github.com/EatBreatheCode/sublime_trimmer/releases)
 
-> [Trimmer](https://github.com/jonlabelle/Trimmer) is a [Sublime Text](http://www.sublimetext.com) plug-in for cleaning up whitespace.
+> [Trimmer](https://github.com/EatBreatheCode/sublime_trimmer) is a [Sublime Text](http://www.sublimetext.com) plug-in for cleaning up whitespace.
 
 ## Features
 
@@ -49,9 +49,9 @@ A **Replace Smart Characters** command that performs the following actions:
 - **Trademark symbol:** `™` *to* `(T)`
 - **Registered trademark symbol:** `®` *to* `(R)`
 
-![ScreenShot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)
+![ScreenShot](docs/command_palette.png)
 
-Watch a [**Quick Demo**](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/demo.gif)
+Watch a ![**Quick Demo**](docs/demo.gif)
 
 ## Install
 
@@ -69,25 +69,25 @@ From the main application menu, navigate to:
 ### Git
 
 To install Trimmer using Git, change to your **Sublime Text Packages** directory
-and clone the [Trimmer repository](https://github.com/jonlabelle/Trimmer).
+and clone the [Trimmer repository](https://github.com/EatBreatheCode/sublime_trimmer).
 
-For example, on **OS X**... start a new **Terminal** session and enter the following
+For example, on **macOS**... start a new **Terminal** session and enter the following
 commands:
 
 ```shell
 $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-$ git clone https://github.com/jonlabelle/Trimmer
+$ git clone https://github.com/EatBreatheCode/sublime_trimmer
 ```
 
 ### Manually
 
-**Download** and **extract** the [zip](https://github.com/jonlabelle/Trimmer/zipball/master)
-or [tarball](https://github.com/jonlabelle/Trimmer/tarball/master) to your
+**Download** and **extract** the [zip](https://github.com/EatBreatheCode/sublime_trimmer/zipball/master)
+or [tarball](https://github.com/EatBreatheCode/sublime_trimmer/tarball/master) to your
 Sublime Text packages directory.
 
 **Default Sublime Text Packages Paths:**
 
-* **OS X:** `~/Library/Application Support/Sublime Text [2|3]/Packages`
+* **macOS:** `~/Library/Application Support/Sublime Text [2|3]/Packages`
 * **Linux:** `~/.Sublime Text [2|3]/Packages`
 * **Windows:** `%APPDATA%/Sublime Text [2|3]/Packages`
 
@@ -99,15 +99,15 @@ Sublime Text packages directory.
 All commands are accessible from the **Command Palette** using prefix
 ***Trimmer***, and in the **Main Menu** under `Edit` -> `Line` -> *Trimmer* command.
 
-- [Command Palette screenshot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/command_palette.png)
-- [Main Menu screenshot](https://raw.githubusercontent.com/jonlabelle/Trimmer/master/screenshots/main_menu.png)
+- ![Command Palette screenshot](docs/command_palette.png)
+- ![Main Menu screenshot](docs/main_menu.png)
 
 ### Key Bindings
 
 The *default* key binding will trim trailing whitespace at the end of each of
 line (entire file).
 
-- **OS X**: `Ctrl + S`
+- **macOS**: `Ctrl + S`
 - **Linux**: `Ctrl + Alt + S`
 - **Windows**: `Ctrl + Alt + S`
 

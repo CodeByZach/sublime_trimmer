@@ -3,107 +3,99 @@
 		"caption": "Edit",
 		"mnemonic": "E",
 		"id": "edit",
-		"children": [
+		"children":
+		[
 			{
 				"caption": "Line",
 				"mnemonic": "L",
 				"id": "line",
-				"children": [
-					{
-						"caption": "-"
-					},
-					{
-						"command": "trimmer",
-						"id": "trim-trailing-whitespace",
-						"caption": "Trim Trailing Whitespace"
-					},
-					{
-						"command": "trim_leading_whitespace",
-						"id": "trim-leading-whitespace",
-						"caption": "Trim Leading Whitespace"
-					},
-					{
-						"command": "trim_leading_trailing_whitespace",
-						"id": "trim-leading-trailing-whitespace",
-						"caption": "Trim Leading and Trailing Whitespace"
-					},
-					{
-						"command": "trim_selections",
-						"id": "trim-selections",
-						"caption": "Trim Selections"
-					},
-					{
-						"command": "delete_empty_lines",
-						"id": "delete-empty-lines",
-						"caption": "Delete Empty Lines"
-					},
-					{
-						"command": "collapse_lines",
-						"id": "collapse-lines",
-						"caption": "Collapse Lines"
-					},
-					{
-						"command": "collapse_spaces",
-						"id": "collapse-spaces",
-						"caption": "Collapse Spaces"
-					},
-					{
-						"command": "trim_edges",
-						"id": "trim-edges",
-						"caption": "Trim File Edges"
-					},
-					{
-						"command": "remove_blank_spaces",
-						"id": "remove-blank-spaces",
-						"caption": "Remove Blank Spaces"
-					},
-					{
-						"caption": "-"
-					}
+				"children":
+				[
+					{ "caption": "-" },
+					{ "id": "trim-trailing-whitespace", "command": "trimmer", "caption": "Trim Trailing Whitespace" },
+					{ "id": "trim-leading-whitespace", "command": "trim_leading_whitespace", "caption": "Trim Leading Whitespace" },
+					{ "id": "trim-leading-trailing-whitespace", "command": "trim_leading_trailing_whitespace", "caption": "Trim Leading and Trailing Whitespace" },
+					{ "id": "trim-selections", "command": "trim_selections", "caption": "Trim Selections" },
+					{ "id": "delete-empty-lines", "command": "delete_empty_lines", "caption": "Delete Empty Lines" },
+					{ "id": "collapse-lines", "command": "collapse_lines", "caption": "Collapse Lines" },
+					{ "id": "collapse-spaces", "command": "collapse_spaces", "caption": "Collapse Spaces" },
+					{ "id": "trim-edges", "command": "trim_edges", "caption": "Trim File Edges" },
+					{ "id": "remove-blank-spaces", "command": "remove_blank_spaces", "caption": "Remove Blank Spaces" },
+					{ "caption": "-" }
 				]
 			},
 			{
 				"caption": "Text",
 				"mnemonic": "T",
 				"id": "text",
-				"children": [
-					{
-						"caption": "-"
-					},
-					{
-						"command": "replace_smart_characters",
-						"id": "replace-smart-characters",
-						"caption": "Replace Smart Characters"
-					},
-					{
-						"command": "tokenize_string",
-						"id": "tokenize-string",
-						"caption": "Tokenize String"
-					},
-					{
-						"command": "remove_comments",
-						"id": "remove-comments",
-						"caption": "Remove Comments"
-					},
-					{
-						"caption": "-"
-					}
+				"children":
+				[
+					{ "caption": "-" },
+					{ "id": "replace-smart-characters", "command": "replace_smart_characters", "caption": "Replace Smart Characters" },
+					{ "id": "tokenize-string", "command": "tokenize_string", "caption": "Tokenize String" },
+					{ "id": "remove-comments", "command": "remove_comments", "caption": "Remove Comments" },
+					{ "caption": "-" }
 				]
 			},
 			{
 				"caption": "Tag",
 				"id": "tag",
-				"children": [
+				"children":
+				[
+					{ "caption": "-" },
+					{ "id": "delete-empty-tags", "command": "delete_empty_tags", "caption": "Delete Empty Tags" },
+					{ "caption": "-" }
+				]
+			}
+		]
+	},
+	{
+		"caption": "Tools",
+		"mnemonic": "T",
+		"id": "tools",
+		"children":
+		[
+			{
+				"id": "packages",
+				"caption": "Packages",
+				"children":
+				[
 					{
-						"caption": "-"
-					},
-					{
-						"command": "delete_empty_tags",
-						"id": "delete-empty-tags",
-						"caption": "Delete Empty Tags"
-					},
-					{
-						"caption": "-"
+						"caption": "Trimmer",
+						"children":
+						[
+							{
+								"caption": "Line",
+								"children":
+								[
+									{ "command": "trimmer", "caption": "Trim Trailing Whitespace" },
+									{ "command": "trim_leading_whitespace", "caption": "Trim Leading Whitespace" },
+									{ "command": "trim_leading_trailing_whitespace", "caption": "Trim Leading and Trailing Whitespace" },
+									{ "command": "trim_selections", "caption": "Trim Selections" },
+									{ "command": "delete_empty_lines", "caption": "Delete Empty Lines" },
+									{ "command": "collapse_lines", "caption": "Collapse Lines" },
+									{ "command": "collapse_spaces", "caption": "Collapse Spaces" },
+									{ "command": "trim_edges", "caption": "Trim File Edges" },
+									{ "command": "remove_blank_spaces", "caption": "Remove Blank Spaces" }
+								]
+							},
+							{
+								"caption": "Text",
+								"children":
+								[
+									{ "command": "replace_smart_characters", "caption": "Replace Smart Characters" },
+									{ "command": "tokenize_string", "caption": "Tokenize String" },
+									{ "command": "remove_comments", "caption": "Remove Comments" }
+								]
+							},
+							{
+								"caption": "Tag",
+								"children":
+								[
+									{ "command": "delete_empty_tags", "caption": "Delete Empty Tags" }
+								]
+							}
+						]
 					}
 				]
 			}
@@ -113,65 +105,99 @@
 		"caption": "Preferences",
 		"mnemonic": "n",
 		"id": "preferences",
-		"children": [
+		"children":
+		[
 			{
 				"caption": "Package Settings",
 				"mnemonic": "P",
 				"id": "package-settings",
-				"children": [
+				"children":
+				[
 					{
 						"caption": "Trimmer",
-						"children": [
+						"children":
+						[
 							{
-								"command": "open_file",
-								"args": {
-									"file": "${packages}/Trimmer/Default (Windows).sublime-keymap",
-									"platform": "Windows"
-								},
-								"caption": "Key Bindings – Default"
+								"caption": "Settings",
+								"command": "edit_settings",
+								"args":
+								{
+									"base_file": "${packages}/Trimmer/Trimmer.sublime-settings",
+									"default": "{\n\t$0\n}\n"
+								}
+							},
+							{ "caption": "-" },
+							{
+								"caption": "Key Bindings",
+								"command": "edit_settings",
+								"args":
+								{
+									"base_file": "${packages}/Trimmer/Default (${platform}).sublime-keymap",
+									"default": "[\n\t$0\n]\n"
+								}
+							},
+							{ "caption": "-" },
+							{
+								"caption": "Menus",
+								"children":
+								[
+									{
+										"caption": "Context Menu",
+										"command": "z_edit_settings",
+										"args":
+										{
+											"file": "${packages}/Trimmer/Context.sublime-menu",
+											"is_parent_setting": "1",
+											"contents": "[\n\t$0\n]\n"
+										}
+									},
+									{
+										"caption": "Side Bar Menu",
+										"command": "z_edit_settings",
+										"args":
+										{
+											"file": "${packages}/Trimmer/Side Bar.sublime-menu",
+											"is_parent_setting": "1",
+											"contents": "[\n\t$0\n]\n"
+										}
+									},
+									{
+										"caption": "Tab Menu",
+										"command": "z_edit_settings",
+										"args":
+										{
+											"file": "${packages}/Trimmer/Tab Context.sublime-menu",
+											"is_parent_setting": "1",
+											"contents": "[\n\t$0\n]\n"
+										}
+									},
+									{
+										"caption": "Main Menu",
+										"command": "z_edit_settings",
+										"args":
+										{
+											"file": "${packages}/Trimmer/Main.sublime-menu",
+											"is_parent_setting": "1",
+											"contents": "[\n\t$0\n]\n"
+										}
+									}
+								]
 							},
 							{
-								"command": "open_file",
-								"args": {
-									"file": "${packages}/Trimmer/Default (OSX).sublime-keymap",
-									"platform": "OSX"
-								},
-								"caption": "Key Bindings – Default"
+								"caption": "Commands",
+								"command": "z_edit_settings",
+								"args":
+								{
+									"file": "${packages}/Trimmer/Default.sublime-commands",
+									"is_parent_setting": "1",
+									"default": "[\n\t$0\n]\n"
+								}
 							},
+							{ "caption": "-" },
 							{
+								"caption": "README",
 								"command": "open_file",
-								"args": {
-									"file": "${packages}/Trimmer/Default (Linux).sublime-keymap",
-									"platform": "Linux"
-								},
-								"caption": "Key Bindings – Default"
-							},
-							{
-								"command": "open_file",
-								"args": {
-									"file": "${packages}/User/Default (Windows).sublime-keymap",
-									"platform": "Windows"
-								},
-								"caption": "Key Bindings – User"
-							},
-							{
-								"command": "open_file",
-								"args": {
-									"file": "${packages}/User/Default (OSX).sublime-keymap",
-									"platform": "OSX"
-								},
-								"caption": "Key Bindings – User"
-							},
-							{
-								"command": "open_file",
-								"args": {
-									"file": "${packages}/User/Default (Linux).sublime-keymap",
-									"platform": "Linux"
-								},
-								"caption": "Key Bindings – User"
-							},
-							{
-								"caption": "-"
+								"args": { "file": "${packages}/Trimmer/README.md" }
 							}
 						]
 					}
