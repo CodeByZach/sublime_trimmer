@@ -136,4 +136,4 @@ line (entire file).
 
 ## License
 
-Trimmer is licensed under the [MIT license](LICENSE.md).
+Trimmer is licensed under the [MIT license](LICENSE).
