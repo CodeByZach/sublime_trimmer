@@ -1,10 +1,10 @@
 # Trimmer
-[![Latest Release](https://img.shields.io/github/tag/EatBreatheCode/sublime_trimmer.svg?label=version)](https://github.com/EatBreatheCode/sublime_trimmer/releases)
-[![Travis CI Build Status](https://travis-ci.org/EatBreatheCode/sublime_trimmer.svg?branch=master)](https://travis-ci.org/EatBreatheCode/sublime_trimmer)
+[![Latest Release](https://img.shields.io/github/tag/CodeByZach/sublime_trimmer.svg?label=version)](https://github.com/CodeByZach/sublime_trimmer/releases)
+[![Travis CI Build Status](https://travis-ci.org/CodeByZach/sublime_trimmer.svg?branch=master)](https://travis-ci.org/CodeByZach/sublime_trimmer)
 [![Package Control Installs](https://img.shields.io/packagecontrol/dt/Trimmer.svg?label=installs)](https://packagecontrol.io/packages/Trimmer)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 
-> [Trimmer](https://github.com/EatBreatheCode/sublime_trimmer) is a [Sublime Text](http://www.sublimetext.com) plug-in for cleaning up whitespace.
+> [Trimmer](https://github.com/CodeByZach/sublime_trimmer) is a [Sublime Text](http://www.sublimetext.com) plug-in for cleaning up whitespace.
 
 ## Features
 
@@ -67,20 +67,20 @@ From the main application menu, navigate to:
 ### Git
 
 To install Trimmer using Git, change to your **Sublime Text Packages** directory
-and clone the [Trimmer repository](https://github.com/EatBreatheCode/sublime_trimmer).
+and clone the [Trimmer repository](https://github.com/CodeByZach/sublime_trimmer).
 
 For example, on **macOS**... start a new **Terminal** session and enter the following
 commands:
 
 ```shell
 $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-$ git clone https://github.com/EatBreatheCode/sublime_trimmer
+$ git clone https://github.com/CodeByZach/sublime_trimmer
 ```
 
 ### Manually
 
-**Download** and **extract** the [zip](https://github.com/EatBreatheCode/sublime_trimmer/zipball/master)
-or [tarball](https://github.com/EatBreatheCode/sublime_trimmer/tarball/master) to your
+**Download** and **extract** the [zip](https://github.com/CodeByZach/sublime_trimmer/zipball/master)
+or [tarball](https://github.com/CodeByZach/sublime_trimmer/tarball/master) to your
 Sublime Text packages directory.
 
 **Default Sublime Text Packages Paths:**
