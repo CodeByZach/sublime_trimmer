@@ -1,10 +1,8 @@
-.DS_Store
-*.py[co]
-.cache
-__pycache__
-*.html
+# Testing
+/*.pyc
+/.cache/
 /tmp/
-.idea/
-.scannerwork/
-.env
-.pytest_cache/
+/.tox/
+/.pytest_cache/
+/__pycache__
+/.idea/
