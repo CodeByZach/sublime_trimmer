@@ -1,6 +1,5 @@
 # Trimmer
 [![Latest Release](https://img.shields.io/github/tag/CodeByZach/sublime_trimmer.svg?label=version)](https://github.com/CodeByZach/sublime_trimmer/releases)
-[![Travis CI Build Status](https://travis-ci.org/CodeByZach/sublime_trimmer.svg?branch=master)](https://travis-ci.org/CodeByZach/sublime_trimmer)
 [![Package Control Installs](https://img.shields.io/packagecontrol/dt/Trimmer.svg?label=installs)](https://packagecontrol.io/packages/Trimmer)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 
