@@ -4,17 +4,17 @@
         "caption": "Trimmer",
         "children":
         [
-            { "command": "trimmer", "caption": "Trim Trailing Whitespace" },
-            { "command": "trim_leading_whitespace", "caption": "Trim Leading Whitespace" },
-            { "command": "trim_leading_trailing_whitespace", "caption": "Trim Leading and Trailing Whitespace" },
-            { "command": "trim_selections", "caption": "Trim Selections" },
-            { "command": "delete_empty_lines", "caption": "Delete Empty Lines" },
-            { "command": "collapse_lines", "caption": "Collapse Lines" },
-            { "command": "collapse_spaces", "caption": "Collapse Spaces" },
-            { "command": "trim_edges", "caption": "Trim File Edges" },
-            { "command": "remove_blank_spaces", "caption": "Remove Blank Spaces" },
-            { "command": "remove_comments", "caption": "Remove Comments" },
-            { "command": "delete_empty_tags", "caption": "Delete Empty Tags" }
+            { "caption": "Trim Trailing Whitespace",             "command": "trimmer" },
+            { "caption": "Trim Leading Whitespace",              "command": "trim_leading_whitespace" },
+            { "caption": "Trim Leading and Trailing Whitespace", "command": "trim_leading_trailing_whitespace" },
+            { "caption": "Trim Selections",                      "command": "trim_selections" },
+            { "caption": "Delete Empty Lines",                   "command": "delete_empty_lines" },
+            { "caption": "Collapse Lines",                       "command": "collapse_lines" },
+            { "caption": "Collapse Spaces",                      "command": "collapse_spaces" },
+            { "caption": "Trim File Edges",                      "command": "trim_edges" },
+            { "caption": "Remove Blank Spaces",                  "command": "remove_blank_spaces" },
+            { "caption": "Remove Comments",                      "command": "remove_comments" },
+            { "caption": "Delete Empty Tags",                    "command": "delete_empty_tags" }
         ]
     }
 ]
