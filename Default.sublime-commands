@@ -12,5 +12,6 @@
     { "caption": "Trimmer: Replace smart characters.",             "command": "replace_smart_characters" },
     { "caption": "Trimmer: Tokenize string.",                      "command": "tokenize_string" },
     { "caption": "Trimmer: Delete empty tags.",                    "command": "delete_empty_tags" },
-    { "caption": "Trimmer: Remove comments.",                      "command": "remove_comments" }
+    { "caption": "Trimmer: Remove comments.",                      "command": "remove_comments" },
+    { "caption": "Trimmer: Delete adjacent duplicate lines.",      "command": "delete_adjacent_duplicate_lines" }
 ]

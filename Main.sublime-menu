@@ -21,6 +21,7 @@
                     { "caption": "Collapse Spaces",                      "command": "collapse_spaces",                  "id": "collapse-spaces" },
                     { "caption": "Trim File Edges",                      "command": "trim_edges",                       "id": "trim-edges" },
                     { "caption": "Remove Blank Spaces",                  "command": "remove_blank_spaces",              "id": "remove-blank-spaces" },
+                    { "caption": "Delete adjacent duplicate lines",      "command": "delete_adjacent_duplicate_lines",  "id": "delete-adjacent-duplicate-lines" },
                     { "caption": "-" }
                 ]
             },
@@ -76,7 +77,8 @@
                                     { "caption": "Collapse Lines",                       "command": "collapse_lines" },
                                     { "caption": "Collapse Spaces",                      "command": "collapse_spaces" },
                                     { "caption": "Trim File Edges",                      "command": "trim_edges" },
-                                    { "caption": "Remove Blank Spaces",                  "command": "remove_blank_spaces" }
+                                    { "caption": "Remove Blank Spaces",                  "command": "remove_blank_spaces" },
+                                    { "caption": "Delete adjacent duplicate lines",      "command": "delete_adjacent_duplicate_lines" }
                                 ]
                             },
                             {

@@ -33,7 +33,7 @@ class DeleteEmptyLinesCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         view = self.view
         has_matches = False
-        reobj = re.compile('^[ \t]*$\r?\n', re.MULTILINE)
+        reobj = re.compile('^[ \t]*$\r?\n|\\s*\\Z', re.MULTILINE)
 
         for region in selections(view):
             str_buffer = view.substr(region)
@@ -312,6 +312,27 @@ class RemoveComments(sublime_plugin.TextCommand):
         else:
             sublime.set_timeout(lambda: sublime.status_message(
                 'Trimmer: no comments to remove.'), 0)
+
+
+class DeleteAdjacentDuplicateLines(sublime_plugin.TextCommand):
+    def run(self, edit):
+        view = self.view
+        has_matches = False
+        reobj = re.compile(r"^(.*)(\r?\n\1)+$", re.MULTILINE)
+
+        for region in selections(view):
+            str_buffer = view.substr(region)
+            trimmed = reobj.sub(r"\1", str_buffer)
+            if str_buffer != trimmed:
+                view.replace(edit, region, trimmed)
+                has_matches = True
+
+        if has_matches is True:
+            sublime.set_timeout(lambda: sublime.status_message(
+                'Trimmer: adjacent dupe lines deleted.'), 0)
+        else:
+            sublime.set_timeout(lambda: sublime.status_message(
+                'Trimmer: no adjacent dupe lines to delete.'), 0)
 
 
 class ReplaceSmartCharactersCommand(sublime_plugin.TextCommand):
