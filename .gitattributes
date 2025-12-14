@@ -2,10 +2,11 @@
 .gitattributes export-ignore
 
 # Files & folders that should not be included in production.
+/.editorconfig    export-ignore
+/.flake8          export-ignore
+/.github/         export-ignore
 /docs/            export-ignore
+/requirements.txt export-ignore
 /scripts/         export-ignore
 /tests/           export-ignore
-/.editorconfig    export-ignore
-/.github/         export-ignore
-/.flake8          export-ignore
-/requirements.txt export-ignore
+/tox.ini          export-ignore
