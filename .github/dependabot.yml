@@ -5,6 +5,25 @@ updates:
     directory: /
     schedule:
       interval: monthly
+    cooldown:
+      default-days: 7
     labels:
       - github-actions
       - dependencies
+    groups:
+      github-actions:
+        patterns:
+          - '*'
+
+  - package-ecosystem: pip
+    directory: /.github
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7
+    labels:
+      - dependencies
+    groups:
+      pip:
+        patterns:
+          - '*'
